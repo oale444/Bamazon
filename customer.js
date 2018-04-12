@@ -62,11 +62,11 @@ var shoppingCart = function () {
         // var query = 'UPDATE Products ? WHERE?';
         console.log(answer)
        
-        // * -- Once the customer has placed the order: Your application should...
-        // * Check if your store has enough quantity of the product to meet the customer's request.
-        //   If not, you should respond to the user by saying: "Insufficient quantity" and prevent the order from going through.
-        // * If your store DOES have enough of the product to meet the customer's request, you should fulfill their order.
-        //   This means that you should show them the total cost of their puchase. Then update the SQL database to reflect the remaining quantity. --
+        // * -- Once the customer has placed the order: 
+        // * Check if store has enough quantity of the product to meet the customer's request.
+        //   If not, respond to the user by saying: "Insufficient quantity" and prevent the order from going through.
+        // * If  store DOES have enough of the product to meet the customer's request, you should fulfill their order.
+        // * Then update the SQL database to reflect the remaining quantity. --
         
         var query = 'SELECT stock_quantity FROM WHERE Products' + answer.Quantity;
 
